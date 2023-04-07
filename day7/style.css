@@ -1,0 +1,34 @@
+.div1{
+    height: 120px;
+    width: 100px;
+    background-color: orange;
+    min-width: 200px;
+    display: block;
+}
+.div2{
+    height: 120px;
+    width: 100px;
+    background-color: red;
+    max-height: 100px;
+    display: inline;
+}
+.div3{
+    height: 120px;
+    width: 100px;
+    background-color: greenyellow;
+    max-width: 80px;
+    display: inline-block;
+}
+.div4{
+    height: 120px;
+    width: 100px;
+    background-color: pink;
+    min-height: 130px;
+    display: inline-block;
+}
+.div5{
+    height: 120px;
+    width: 100px;
+    background-color: green;
+    display:none;
+}

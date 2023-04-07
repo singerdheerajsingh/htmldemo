@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid orange;
+            height: 80px;
+            width: 100px;
+            background-color: pink;
+            align-items: center;
+            z-index: 1;
+        }
+        .p-absolute{
+            position: absolute;
+            top: 40px;
+            left: 30px;
+            width: 120px;
+            z-index: -1;
+            border-color: orchid;
+            padding-top: 60px;
+            text-align: center;
+            background-color: palegreen;
+        }
+    </style>
+</head>
+<body>
+<div class="box">box1</div>
+<div class="box p-absolute">position:absolute</div>
+</body>
+</html>
